@@ -2,234 +2,41 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Domain</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- css -->
+  <link rel="stylesheet" href="./hero.css">
+  <!-- itlwind -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- font owson -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  </style>
+  <title>Document</title>
 </head>
 
-<body class="bg-white text-slate-800">
+<body>
+  <section class="">
+    <div class="heder-section contenar text-center">
+      <h1 class="heder text-[30px] font-semibold">Portfolio</h1>
+      <p class="mt-10 text-[#555]">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+    <div class="nav-link contenar ">
+      <ul class="links flex justify-evenly justify-center bg-[#fff] shadow-md w-[50%]">
+        <li class="link-port activ:bg-[#000]"><a href="#" class="text-[15px] font-semibold text-[#444] ">All Project</a>
+        </li>
+        <li class="link-port "><a href="#" class="text-[15px] font-semibold text-[#444]">Web Design</a></li>
+        <li class="link-port "><a href="#" class="text-[15px] font-semibold text-[#444]">Mobile Apps</a></li>
+        <li class="link-port "><a href="#" class="text-[15px] font-semibold text-[#444]">Branding</a></li>
+        <li class="link-port "><a href="#" class="text-[15px] font-semibold text-[#444]">UI/UX</a></li>
+      </ul>
+    </div>
+    <div class="brodact contenar grid grid-cols-3 gap-4">ّ
+    </div>
+  </section>
 
-  <main class="mx-auto w-[85%] py-6">
-
-    <section class="flex items-center gap-3 text-xs text-slate-500">
-      <a href="#" class="flex items-center gap-1.5 text-slate-700">
-        <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
-          <path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" />
-        </svg>
-        Home
-      </a>
-      <span class="h-1 w-1 rounded-full bg-slate-400"></span>
-      <a href="#" class="text-slate-700">Grocery</a>
-      <span class="h-1 w-1 rounded-full bg-slate-300"></span>
-      <span class="text-slate-400">Product Details</span>
-    </section>
-
-    <section class="mt-8 grid gap-8 lg:grid-cols-[1.1fr_1fr]">
-
-      <div class="flex gap-4">
-
-        <div class="flex w-[74px] shrink-0 flex-col gap-3">
-          <div class="h-[73px] rounded-lg bg-[#f5f6fb] opacity-50 hover:opacity-100 duration-300 border border-gray-200 overflow-hidden">
-            <img src="./imgs/images.jpg" alt="">
-          </div>
-          <div class="h-[73px] rounded-lg bg-[#f5f6fb] border border-gray-200 overflow-hidden">
-            <img src="./imgs/images (1).jpg" alt="">
-          </div>
-          <div class="h-[73px] rounded-lg bg-[#f5f6fb]  opacity-50 hover:opacity-100 duration-300border border-gray-200 overflow-hidden">
-            <img src="./imgs/images (2).jpg" alt="">
-          </div>
-          <div class="h-[73px] rounded-lg bg-[#f5f6fb] opacity-50 hover:opacity-100 duration-300 border border-gray-200 overflow-hidden">
-            <img src="./imgs/images (3).jpg" alt="">
-          </div>
-          <div class="h-[73px] rounded-lg bg-[#f5f6fb]  opacity-50 hover:opacity-100 duration-300 border border-gray-200 overflow-hidden">
-            <img src="./imgs/images (4).jpg" alt="">
-          </div>
-          <div class="h-[73px] rounded-lg bg-[#f5f6fb]  opacity-50 hover:opacity-100 duration-300 border border-gray-200 overflow-hidden">
-            <img src="./imgs/images (5).jpg" alt="">
-          </div>
-        </div>
-
-        <div
-        
-          class="relative flex min-h-[320px] flex-1 items-center justify-center rounded-lg bg-[#f5f6fb] sm:min-h-[513px] border border-gray-200 overflow-hidden" >
-          <img src="./imgs/images (1).jpg" alt="" class="w-[100%] h-[100%] object-cover">
-          <a href="#"
-            class="absolute right-3 top-1/2 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-white">
-            <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-              <path d="m9 6 6 6-6 6" />
-            </svg>
-          </a>
-        </div>
-      </div>
-
-      <div class="h-fit rounded-xl border border-[#e8dccf] p-5 sm:p-6">
-
-        <span class="inline-block bg-[#d0043c] px-1.5 py-0.5 text-[11px] font-bold text-white">SALES</span>
-
-        <div class="mt-3 flex items-start justify-between gap-4">
-          <h1 class="text-lg font-semibold leading-snug text-slate-900">Crisp Red Apples – Sweet, Juicy &amp; Fresh…
-          </h1>
-          <a href="#"
-            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-slate-100 text-slate-800">
-            <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
-              <path
-                d="M12 20s-7-4.4-9-9.2C1.8 7.6 3.8 4.5 7 4.5c2 0 3.4 1 5 3 1.6-2 3-3 5-3 3.2 0 5.2 3.1 4 6.3C19 15.6 12 20 12 20z" />
-            </svg>
-          </a>
-        </div>
-
-        <div class="mt-2 flex items-center gap-2 text-sm text-slate-500">
-          <div class="flex">
-            <span class="text-amber-400">★★★★</span>
-            <span class="text-slate-300">★</span>
-          </div>
-          <span>(11.78k reviews)</span>
-        </div>
-
-        <div class="mt-4 flex items-center gap-3">
-          <span class="text-xl font-bold text-slate-900">$62.97</span>
-          <span class="h-4 w-px bg-[#e8dccf]"></span>
-          <span class="text-lg text-slate-400">$62.97</span>
-          <span class="bg-[#ffc107] px-1.5 py-0.5 text-[11px] font-bold text-slate-900">15% OFF</span>
-        </div>
-
-        <hr class="my-4 border-dashed border-[#e8dccf]" />
-
-        <div>
-          <p class="text-sm"><span class="font-medium">Color:</span> <span class="text-slate-600">Green</span></p>
-          <div class="mt-3 flex gap-3">
-            <a href="#"
-              class="flex h-8 w-8 items-center justify-center rounded-full border border-[#e8dccf] bg-white text-slate-500 hover:border-[#0b4f57]">
-              <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
-                <rect x="3" y="3" width="18" height="18" rx="3" />
-                <circle cx="9" cy="9" r="1.5" />
-                <path d="m21 15-5-5L5 21" />
-              </svg>
-            </a>
-            <a href="#"
-              class="flex h-8 w-8 items-center justify-center rounded-full border border-[#e8dccf] bg-white text-blue-500 hover:border-[#0b4f57]">
-              <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
-                <rect x="3" y="3" width="18" height="18" rx="3" />
-                <circle cx="9" cy="9" r="1.5" />
-                <path d="m21 15-5-5L5 21" />
-              </svg>
-            </a>
-            <a href="#"
-              class="flex h-8 w-8 items-center justify-center rounded-full border border-[#e8dccf] bg-white text-amber-400 hover:border-[#0b4f57]">
-              <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
-                <rect x="3" y="3" width="18" height="18" rx="3" />
-                <circle cx="9" cy="9" r="1.5" />
-                <path d="m21 15-5-5L5 21" />
-              </svg>
-            </a>
-            <a href="#"
-              class="flex h-8 w-8 items-center justify-center rounded-full border border-[#e8dccf] bg-white text-[#d0043c] hover:border-[#0b4f57]">
-              <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
-                <rect x="3" y="3" width="18" height="18" rx="3" />
-                <circle cx="9" cy="9" r="1.5" />
-                <path d="m21 15-5-5L5 21" />
-              </svg>
-            </a>
-          </div>
-        </div>
-
-        <div class="mt-6">
-          <p class="text-sm"><span class="font-medium">Pack Size:</span> <span class="ml-1 text-slate-600">250 ML</span>
-          </p>
-          <div class="mt-3 flex flex-wrap gap-3">
-            <a href="#"
-              class="rounded-md border border-[#e8dccf] bg-white px-4 py-2 text-xs font-medium text-slate-800 hover:border-[#0b4f57] hover:bg-[#0b4f57] hover:text-white">60
-              ML</a>
-            <a href="#"
-              class="rounded-md border border-[#e8dccf] bg-white px-4 py-2 text-xs font-medium text-slate-800 hover:border-[#0b4f57] hover:bg-[#0b4f57] hover:text-white">120
-              ML</a>
-            <a href="#"
-              class="rounded-md border border-[#e8dccf] bg-white px-4 py-2 text-xs font-medium text-slate-800 hover:border-[#0b4f57] hover:bg-[#0b4f57] hover:text-white">220
-              ML</a>
-            <a href="#"
-              class="rounded-md border border-[#e8dccf] bg-white px-4 py-2 text-xs font-medium text-slate-800 hover:border-[#0b4f57] hover:bg-[#0b4f57] hover:text-white">250
-              ML</a>
-            <a href="#"
-              class="rounded-md border border-[#e8dccf] bg-white px-4 py-2 text-xs font-medium text-slate-800 hover:border-[#0b4f57] hover:bg-[#0b4f57] hover:text-white">300
-              ML</a>
-            <a href="#"
-              class="rounded-md border border-[#e8dccf] bg-white px-4 py-2 text-xs font-medium text-slate-800 hover:border-[#0b4f57] hover:bg-[#0b4f57] hover:text-white">500
-              ML</a>
-          </div>
-        </div>
-
-        <div class="mt-6">
-          <p class="text-sm font-medium">Quantity</p>
-          <div class="mt-3 flex flex-wrap items-center gap-3">
-            <div class="flex h-11 w-[135px] items-center justify-between rounded-md border border-[#e8dccf] px-3">
-              <a href="#" class="text-slate-400">
-                <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
-                  <path d="M5 12h14" />
-                </svg>
-              </a>
-              <span class="text-sm">1</span>
-              <a href="#" class="text-slate-800">
-                <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
-                  <path d="M12 5v14M5 12h14" />
-                </svg>
-              </a>
-            </div>
-
-            <button type="button"
-              class="h-11 flex-1 rounded-md bg-[#ffc107] px-6 text-sm font-semibold text-slate-900 shadow">Buy
-              Now</button>
-
-            <button type="button"
-              class="flex h-11 flex-1 items-center justify-center gap-2 rounded-md bg-[#0b4f57] px-6 text-sm font-semibold text-white">
-              <svg class="h-5 w-5 text-emerald-300" fill="none" stroke="currentColor" stroke-width="1.7"
-                viewBox="0 0 24 24">
-                <path d="M3 4h2l2.5 11h10l2-8H6.5" />
-                <circle cx="9" cy="19.5" r="1.2" />
-                <circle cx="17" cy="19.5" r="1.2" />
-                <path d="M12 8v4M10 10h4" />
-              </svg>
-              Add to Cart
-            </button>
-          </div>
-        </div>
-
-        <hr class="my-5 border-dashed border-[#e8dccf]" />
-
-        <div class="flex items-center gap-4 text-sm text-blue-500">
-          <a href="#" class="flex items-center gap-1.5">
-            Share
-            <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
-              <path d="M12 15V4m0 0L8 8m4-4 4 4M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" />
-            </svg>
-          </a>
-          <span class="h-4 w-px bg-[#e8dccf]"></span>
-          <a href="#" class="flex items-center gap-1.5">
-            <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
-              <path d="M4 9V7a2 2 0 0 1 2-2h10l-2-2m2 2-2 2M20 15v2a2 2 0 0 1-2 2H8l2 2m-2-2 2-2" />
-            </svg>
-            Compare
-          </a>
-        </div>
-
-        <div class="mt-5 space-y-4 text-sm">
-          <div class="flex">
-            <span class="w-28 font-medium">Free Shipping</span>
-            <p class="text-slate-600"><span class="mr-6">:</span>Estimated Delivery Time 5-7 Days</p>
-          </div>
-          <div class="flex">
-            <span class="w-28 font-medium">SKU</span>
-            <p class="text-slate-600"><span class="mr-6">:</span>456</p>
-          </div>
-          <div class="flex">
-            <span class="w-28 font-medium">Categories</span>
-            <p class="text-slate-600"><span class="mr-6">:</span>Clothing, Laptop</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
+  <script src="./index.js"></script>
 </body>
 
 </html>
